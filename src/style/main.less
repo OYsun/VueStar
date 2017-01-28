@@ -1,6 +1,12 @@
 @import './CoreBase64.less';
 
-.VueStar {
+.VueStar{
+  position: absolute;
+}
+.VueStar__ground {
+    width: 100px;
+    height: 100px;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,6 +19,10 @@
   width: 100px;
   height: 100px;
   position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
   .base64();
   background-position: 0 0;
   cursor: pointer;
