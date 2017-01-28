@@ -1,0 +1,52 @@
+{
+  "name": "vue-star",
+  "version": "0.0.1",
+  "author": "OYsun <web-oysun@qq.com>",
+  "license": "MIT",
+  "description": "A like button with delightful star animation with Vue.js",
+  "main": "dist/VueStar.js",
+   "files": [
+    "dist"
+  ],
+  "scripts": {
+    "pack": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "keywords": [
+    "menu",
+    "like",
+    "vue",
+    "vuejs",
+    "components",
+    "ui"
+  ],
+  "bugs": {
+    "url": ""
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "babel-cli": "^6.3.15",
+    "babel-core": "^6.3.15",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-transform-runtime": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "file-loader": "^0.8.5",
+    "style-loader": "^0.13.0",
+    "vue": "^2.1.0",
+    "vue-html-loader": "^1.0.0",
+    "vue-loader": "^10.0.0",
+    "vue-template-compiler": "^2.1.0",
+    "webpack": "^1.13.2"
+  }
+}

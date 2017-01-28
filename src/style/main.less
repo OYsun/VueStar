@@ -1,0 +1,25 @@
+@import './CoreBase64.less';
+
+.VueStar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.VueStar__icon {
+  z-index: 888; /*❤今年888大发*/
+  cursor: pointer;
+}
+.VueStar__decoration {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  .base64();
+  background-position: 0 0;
+  cursor: pointer;
+  transition: background-position 1s steps(25);
+  transition-duration: 0s;
+}
+ .VueStar__decoration--active {
+  transition-duration: 1s;
+  background-position: -2500px 0;
+}
