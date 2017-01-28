@@ -5,6 +5,11 @@
 
 # 米娜撒，新年快乐！❤❤❤
 
+# demo
+扫描下面的二维码观看demo
+
+<img src="./src/images/demo.png" width="50%">
+
 # API
 
 ## Props
