@@ -1,6 +1,6 @@
 # VueStar
 
-<img src="./src/images/logo.gif">
+<img src="./src/images/logo-01.gif">
 
 
 # 米娜撒，新年快乐！❤❤❤
