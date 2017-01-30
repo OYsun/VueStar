@@ -22,7 +22,6 @@ export default {
       this.active = !this.active
       this.toggleAnimate = !this.toggleAnimate
       this.toggleColor = !this.toggleColor
-      console.log(this.animate)
     }
   },
   data () {
