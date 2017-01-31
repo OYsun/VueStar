@@ -2,12 +2,11 @@
 
 <img src="./src/images/logo-01.gif">
 
----------------------------------------------------------------------
 
-## 查看中文文档，请移步至 [这里](https://github.com/OYsun/VueStar/blob/master/README-ZH.MD)
+# 米娜撒，新年快乐！❤❤❤
 
 # demo
-### For a better demonstration, please use the phone scan the following two-dimensional code view demo
+扫描下面的二维码观看demo
 
 <img src="./src/images/demo.png" width="50%">
 
@@ -15,23 +14,23 @@
 
 ## Props
 
-| Option     | Type    | Description   |
+| 参数    | 类型    | 说明   |
 | ------------- |-------------| -----|
-| animate | String | To activate the animation of the like button|
-| color  | String | Activate the like button, the color of the button. (note to must be  hex or RGB color code) |
+| animate | String | 点赞激活时候的动画|
+| color  | String | 点赞激活时候的颜色(注意填写的是hex或者rgb的颜色代码) |
 
 ## Slot
 
-| SlotName    | Description   |
+| SlotName    | 说明   |
 | -------------| -----|
-| icon  | Set up the like button |
+| icon  | 承载点赞的图标 |
 
-# Detailed instructions
+# 详细说明
 
 ## Props
 
 ### animate
-`animate`Specify the like button animation, the default is no animation, you can add animation CSS class, of course, can also introduce  CSS animation library, such as animate.css
+`animate`指明点赞图标动画,默认是没有动画的，你可以添加动画css类，当然，也可以引入第三方css动画库，比如animate.css
 
 <img src="./src/images/animate-defaut.gif" width="250">
 <img src="./src/images/animate01.gif" width="250">
@@ -41,7 +40,7 @@
 <img src="./src/images/animate05.gif" width="250">
 
 ### color
-`color`Activate the button when the button color changes, the default is not. Note: The value of this parameter must be filled in hex or rgb color code, rather than the css class
+`color`是当点赞组件激活时候点赞图标的颜色变化,默认是没有颜色变化的。注意：该参数填写的值必须是hex或者rgb颜色代码，而不是css类
 
 <img src="./src/images/color.gif" width="250">
 <img src="./src/images/color01.gif" width="250">
@@ -51,14 +50,14 @@
 ## Slot
 
 ### icon
-`icon`To the ` slot ` inside fill in any content you want, it is the carrier of the like button
+`icon`是点赞组件承载的核心,往该`slot`里面填入任意你需要的图标
 
 <img src="./src/images/icon.gif" width="250">
 <img src="./src/images/icon01.gif" width="250">
 <img src="./src/images/icon02.gif" width="250">
 
-### abuout event
-####  Events should be bound in the `slot`
+### 关于event
+#### 简单来说该组件其实就一个包裹内容的控件,围绕`slot`中的内容，当你`slot`中内容被激活（点击等等之类的事件）时候，做出相应的变化(颜色改变和css动画)，这是耦合组件的属性。但是其余对于`slot`被激活的时候产生的回调（点赞次数+1等等），应该与组件应该完全解耦。这类事件应该绑定在`slot`中
 
 ```vue
 <template>
@@ -78,7 +77,7 @@ export default {
 </script>
 ```
 
-## Simple example
+## 简单的例子
 ```html
   <vue-star animate="yourAnimateCssClass" color="rgb(152, 138, 222)">
     <img slot="icon" src="./yourImgPlace/yourImg.png" />
@@ -92,25 +91,25 @@ export default {
   </vue-star>
 ```
 
-# Installation and use
+# 安装和使用
 
 ```javascript
 npm install vue-star
 ```
 
-- If used as a global component
+- 若作为全局组件使用
 
 ```javascript
-//In the project entry file
+//在项目入口文件
 import Vue from 'vue'
 import VueStar from 'vue-star'
 Vue.component('VueStar', VueStar)
 ```
 
-- If as a local component
+- 若作为局部组件
 
 ```javascript
-//In a component
+//在某个组件中
 import VueStar from 'vue-star'
 export default {
   components: {
@@ -118,9 +117,9 @@ export default {
   }
 }
 ```
-# Bug and suggestions
+# bug和建议
 
-If you encounter problems or suggestions in the use, welcome to `issues`
+如果在使用中遇到问题或者建议，欢迎提`issues`
 
 # LICENSE
 
