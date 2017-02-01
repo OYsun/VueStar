@@ -86,7 +86,7 @@ export default {
 ```
 
 ```html
-  <!--动画引入animate.css库,icon引入font-awesome图标库  -->
+  <!--use animate.css and font-awesome -->
   <vue-star animate="animated bounceIn" color="#F05654">
     <i slot="icon" class="fa fa-heart"></i>
   </vue-star>
