@@ -6,7 +6,7 @@
 # 米娜撒，新年快乐！❤❤❤
 
 # demo
-扫描下面的二维码观看demo
+扫描下面的二维码观看demo ，或者点击 http://web-oysun.cn/VueStar/
 
 <img src="./src/images/demo.png" width="50%">
 
@@ -57,7 +57,7 @@
 <img src="./src/images/icon02.gif" width="250">
 
 ### 关于event
-#### 简单来说该组件其实就一个包裹内容的控件,围绕`slot`中的内容，当你`slot`中内容被激活（点击等等之类的事件）时候，做出相应的变化(颜色改变和css动画)，这是耦合组件的属性。但是其余对于`slot`被激活的时候产生的回调（点赞次数+1等等），应该与组件应该完全解耦。这类事件应该绑定在`slot`中
+#### 绑定在`slot`中
 
 ```vue
 <template>

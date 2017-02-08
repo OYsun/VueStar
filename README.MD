@@ -7,7 +7,7 @@
 ## 查看中文文档，请移步至 [这里](https://github.com/OYsun/VueStar/blob/master/README-ZH.MD)
 
 # demo
-### For a better demonstration, please use the phone scan the following two-dimensional code view demo
+### For a better demonstration, please use the phone scan the following two-dimensional code view demo，or click this link http://web-oysun.cn/VueStar/
 
 <img src="./src/images/demo.png" width="50%">
 
